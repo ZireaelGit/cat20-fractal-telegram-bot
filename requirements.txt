@@ -1,0 +1,9 @@
+aiohttp==3.9.1
+cryptography==41.0.7
+pytest==8.3.2
+python-dotenv==1.0.1
+python-telegram-bot[job-queue]==21.6
+requests==2.32.3
+ollama==0.3.3
+APScheduler==3.9.1
+pandas==2.2.2

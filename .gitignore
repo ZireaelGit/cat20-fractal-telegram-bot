@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables file
+.env
+
+# macOS hidden files
+.DS_Store
+
+# Log files
+*.log
+
+# Cache directories
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Unit test / coverage results
+htmlcov/
+.tox/
+.nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python development artifacts
+*.pyo
+
+# IDE or Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# pipenv files (if you are using it)
+Pipfile.lock
+
+# Ignore secrets
+secrets.json
+
+/backup*
+/bash_scripts*
+
+# Exclude encryption keys
+cat20_telegram/KittyMintBot/bot_config/key*.key
+
+/v1*
+cat20_telegram/KittyMintBot/data
